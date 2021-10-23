@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.rect{
+    width: 1116px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 79px;
+    padding-bottom: 141px;
+    
+}
+.header {
+    background-color: #eeeff1;
+}
+.nav-menu-link{
+    text-transform: uppercase;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+letter-spacing: 0.1em;
+
+color: #000000;
+
+}
+.nav-menu-item{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 42px;
+}
+.nav-menu-item.last{
+    margin-right: 0px;
+}
+
+.nav-menu-link.first{
+    color: #34547A;
+    font-weight: 500;
+}
+.navig{
+    margin-bottom: 160px;
+}
+.zagolovok{
+font-size: 48px;
+font-weight: 500;
+line-height: 60px;
+color: #000000;
+margin-bottom: 45px;
+
+}
+.main-text{
+width: 540px;
+
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-bottom: 54px;
+}
+.button{
+display: inline-block;
+vertical-align: top;   
+
+background: #34547A;
+
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+color: #ffff;
+padding: 19px 41px 20px 41px;
+text-decoration: none;
+text-transform: uppercase;
+}
