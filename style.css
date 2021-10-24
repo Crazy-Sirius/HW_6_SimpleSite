@@ -10,20 +10,16 @@ body{
     margin-right: auto;
     padding-top: 79px;
     padding-bottom: 141px;
-    
 }
 .header {
     background-color: #eeeff1;
 }
 .nav-menu-link{
     text-transform: uppercase;
-font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
-letter-spacing: 0.1em;
-
-color: #000000;
-
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #000000;
 }
 .nav-menu-item{
     display: inline-block;
@@ -42,33 +38,123 @@ color: #000000;
     margin-bottom: 160px;
 }
 .zagolovok{
-font-size: 48px;
-font-weight: 500;
-line-height: 60px;
-color: #000000;
-margin-bottom: 45px;
-
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 45px;
 }
 .main-text{
-width: 540px;
-
-font-size: 16px;
-line-height: 26px;
-color: #727272;
-margin-bottom: 54px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 54px;
 }
 .button{
-display: inline-block;
-vertical-align: top;   
+    display: inline-block;
+    vertical-align: top;   
+    background: #34547A;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffff;
+    padding: 19px 41px 20px 41px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.about-me{
+    background-color: #f9f9f9;
+    padding-bottom: 89px;
+    padding-top: 102px;
+}
 
-background: #34547A;
+.zagolovok2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 42px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.1em;
-color: #ffff;
-padding: 19px 41px 20px 41px;
-text-decoration: none;
-text-transform: uppercase;
+.text-section2{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 540px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-icon{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+    color: #ffff;
+}
+
+.projects{
+    background-color: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.projects-title{
+    font-size: 21px;
+    line-height: 24px;
+    font-Weight:500;
+    margin-bottom: 5px;
+}
+.project-decription{
+    font-size: 16px;
+
+}
+.projects-items{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 49px;
+}
+.projects-items.last{
+    margin-right: 0px;
+}
+.zagolovok2.work{
+    margin-top: 100px;
+}
+.text-section2.work{
+    margin-bottom: 46px;
+}
+
+.rect.about-me,.rect.projects,.rect.work{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.rect.work{
+    margin-bottom: 100px;
+}
+.copyright{
+    background-color: #34547A;
+}
+.footer-title{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    color: #ffff;
+}
+.footer-description{
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.rect.footer{
+    padding-top: 50px;
+    padding-bottom: 47px;
 }
